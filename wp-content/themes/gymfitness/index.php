@@ -6,20 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="contenedor">
+            <div class="logo">
+
+
+            </div>
+            <nav>
+
+            
+            </nav>
+
+
+        </div>
 
 
     </header>
 
-<main>
-<?php 
-    while(have_posts()): the_post();
+    <main>
+    <?php 
+        while(have_posts()): the_post();
 
-    the_title();
-    the_content();
+        the_title();
+        the_content();
 
-    endwhile;    
-?>
-</main>
+        endwhile;    
+    ?>
+    </main>
 </body>
 </html>
