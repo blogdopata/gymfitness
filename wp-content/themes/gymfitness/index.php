@@ -14,7 +14,8 @@
 
             </div>
 
-            <?php 
+            <?php   
+                    // para indicar que menu quiero de los registrados en function .php
                 $args = array(
                     'theme_location' => 'menu-principal',//con el theme location le digo que menu quiero renderizar
                     'container' => 'nav',
