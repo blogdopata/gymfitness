@@ -2,7 +2,7 @@
 
     function gymfitness_menus(){
         register_nav_menus( array(
-            'menu-principal' => __('Menu Principal','gymfitnes')  //ese nombre menu Principal figura en el panel del adminstrador el recuadro para marcar
+            'menu-principal' => __('Menu Principal xD ','gymfitnes')  //ese nombre menu Principal figura en el panel del adminstrador el recuadro para marcar
             //si quisieras más menu solo separas por, ejem:
             //menu-redes' => __('Menu redes','gymfitnes')
 

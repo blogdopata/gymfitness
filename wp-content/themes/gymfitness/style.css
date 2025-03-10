@@ -109,7 +109,7 @@ ul {
     padding: 5rem 0;
 }
 
-/* HEader */
+/* Header */
 .header {
     background-color: var(--gris-oscuro);
     padding: 2rem;
@@ -126,6 +126,10 @@ ul {
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+.menu-principal .menu     {
+    display: none;
 }
 
 /* .menu-principal .menu{

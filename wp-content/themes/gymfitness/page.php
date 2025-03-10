@@ -7,6 +7,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
+    
     <header class="header">
         <div class="contenedor  barra-navegacion">
             
