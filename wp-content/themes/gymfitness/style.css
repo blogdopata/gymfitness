@@ -95,10 +95,13 @@ ul {
 /* Utilidades */
 .text-center {
     text-align: center;
+   
+   
 }
 
-.textp-primary {
+.text-primary {
     color: var(--primario);
+   
 }
 
 .texto-blanco {
