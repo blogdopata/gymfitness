@@ -4,19 +4,16 @@
     get_header();
 ?>
 
-    <main class="contenedor seccion">
+    <main class="contenedor seccion" style="border:1px solid red">
         <?php 
-            while( have_posts() ): the_post();
-        ?>
-
-            <h1 class="text-center text-primary"> <?php the_title(); ?>   <h1>
+            get_template_part('template-parts/pagina');
+         ?> 
             
-        <?php
-                the_content();
-            endwhile;    
-        ?>
-
+     
 
     </main>
-</body>
-</html>
+
+
+<?php
+    get_footer();
+?>

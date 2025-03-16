@@ -1,21 +1,20 @@
 <?php
-
-
-    get_header();
+get_header();
 ?>
 
 
 
 
-    <main>
-    <?php 
-        while(have_posts()): the_post();
+<main>
+    <?php
+    while (have_posts()): the_post();
 
         the_title();
         the_content();
 
-        endwhile;    
+    endwhile;
     ?>
-    </main>
-</body>
-</html>
+</main>
+<?php
+get_footer();
+?>

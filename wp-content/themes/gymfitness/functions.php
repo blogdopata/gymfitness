@@ -1,5 +1,18 @@
 <?php 
 
+//FUNCION PARA HABILITAR SUBIDA DE IMANGEES EN EDICION D PAGINA
+function gymfitness_setup(){
+    // imagenes destacadas
+    add_theme_support('post-thumbnails');
+
+    // TITULOS PARA SEO ( REEPPLANZA EL TITLE )
+    add_theme_support('title-tag');
+
+}
+
+add_action('after_setup_theme','gymfitness_setup');
+
+// FUNCTION PARA REGISTRAR MENUS PARA WP
     function gymfitness_menus(){
         register_nav_menus( array(
             'menu-principal' => __('Menu Principal xD ','gymfitnes')  //ese nombre menu Principal figura en el panel del adminstrador el recuadro para marcar
