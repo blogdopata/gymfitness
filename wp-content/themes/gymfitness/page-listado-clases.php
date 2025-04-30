@@ -16,7 +16,10 @@
 <main class="contenedor seccion" >
    
         <h1> LISTADO DE CLASES </h1>
-
+        <?php 
+            get_template_part('template-parts/pagina');
+         ?> 
+            
         <ul class="listado-grid">
 
         <?php
