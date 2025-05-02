@@ -11,7 +11,7 @@
                 the_post_thumbnail('full', array('class' => 'imagen-destacada'));
             }
 
-            the_content();
+                the_content();
             endwhile;
 
-    ?>
+    
